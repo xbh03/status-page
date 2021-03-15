@@ -6,6 +6,7 @@ Features:
 - Ping (ICMP) hosts;
 - Automatic page refresh (5 seconds);
 - Alertbox with PHP conditions;
+- Alarm sound notification (loop);
 
 Coming Soon Features:
 - Notification via e-mail (SMTP);
