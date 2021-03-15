@@ -1,4 +1,4 @@
-# stauts-page
+# status-page
 PHP project for network monitoring (ICMP)
 First project in PHP.
 
