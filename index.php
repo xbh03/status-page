@@ -14,9 +14,9 @@
    </head>
    <header>
       <div style="margin-left: 30%;">
-        <img style="margin-top: 20px;"src="../includes/img/logo.png" width="250" alt="inorbita.com">
+        <img style="margin-top: 20px;"src="#" width="250" alt="yourdomain.com">
        <div style="margin-top: 20px;">
-        <font style="font-family: 'Nanum Gothic', sans-serif; font-size: 25px;">Monitoraggio delle infrastrutture InOrbita</font>
+        <font style="font-family: 'Nanum Gothic', sans-serif; font-size: 25px;">Monitoraggio delle infrastrutture</font>
       </div>
       </div>
    </header>
@@ -36,7 +36,7 @@
         <font style="font-family: 'Nanum Gothic', sans-serif; margin-top: 10px;"><b>Infrastruttura A00/00</b></font>
        <div style="margin-top: 5px;">
          <?php
-    $ip = "77.39.210.94";
+    $ip = "google.com";
     if(isset($ip)){
     $host = $ip;
     $port = 80;
@@ -44,7 +44,7 @@
     ?>
     <?php if($fp = fsockopen($host,$port,$errCode,$errStr,$waitTimeoutInSeconds)){ ?>
       <?php $alert = 0; ?>
-      <font style="font-family: 'Nanum Gothic', sans-serif;" color="green"><i class="fas fa-check-circle"></i></font>&nbsp;&nbsp;Server Altair - Roma (Roma)</font>
+      <font style="font-family: 'Nanum Gothic', sans-serif;" color="green"><i class="fas fa-check-circle"></i></font>&nbsp;&nbsp;Google Servers</font>
       <div style="margin-top: 20px; margin-right: 40%;">
       <div class="alert alert-success" role="alert">
         <p>A seguito dell'ultimo controllo, tutte le infrastrutture sono risultate operative. </p>
@@ -53,7 +53,7 @@
       </div>
     </div>
     <?php } else { ?>
-      <font style="font-family: 'Nanum Gothic', sans-serif;" color="red"><i class="fas fa-times-circle"></i></font>&nbsp;&nbsp;Server Altair - Roma (Roma)</font>
+      <font style="font-family: 'Nanum Gothic', sans-serif;" color="red"><i class="fas fa-times-circle"></i></font>&nbsp;&nbsp;Google Servers</font>
       <div style="margin-top: 20px; margin-right: 40%;">
       <div class="alert alert-danger" role="alert">
         <p>A seguito dell'ultimo controllo, &egrave; risultato un problema ad una infrastruttura. </p>
@@ -83,14 +83,14 @@
         <font style="font-family: 'Nanum Gothic', sans-serif; margin-top: 10px;"><b>Infrastruttura A01/00</b></font>
        <div style="margin-top: 5px;">
          <?php
-    $ip2 = "lstrxne18zdiyozo.myfritz.net";
+    $ip2 = "bing.com";
     if(isset($ip2)){
     $host2 = $ip2;
-    $port2 = 42326;
+    $port2 = 80;
     $waitTimeoutInSeconds2 = 1;
     ?>
     <?php if($fp2 = fsockopen($host2,$port2,$errCode2,$errStr2,$waitTimeoutInSeconds2)){ ?>
-      <font style="font-family: 'Nanum Gothic', sans-serif;" color="green"><i class="fas fa-check-circle"></i></i></font>&nbsp;&nbsp;Router Fritz!Box A01/01 - Silvia Ghirardosi</font>
+      <font style="font-family: 'Nanum Gothic', sans-serif;" color="green"><i class="fas fa-check-circle"></i></i></font>&nbsp;&nbsp;Bing Servers</font>
       <div style="margin-top: 20px; margin-right: 40%;">
       <div class="alert alert-success" role="alert">
         <p>A seguito dell'ultimo controllo, tutte le infrastrutture sono risultate operative. </p>
@@ -99,7 +99,7 @@
       </div>
     </div>
     <?php } else { ?>
-      <font style="font-family: 'Nanum Gothic', sans-serif;" color="red"><i class="fas fa-times-circle"></i></font>&nbsp;&nbsp;Router Fritz!Box A01/01 - Silvia Ghirardosi</font>
+      <font style="font-family: 'Nanum Gothic', sans-serif;" color="red"><i class="fas fa-times-circle"></i></font>&nbsp;&nbsp;Bing Servers</font>
       <div style="margin-top: 20px; margin-right: 40%;">
       <div class="alert alert-danger" role="alert">
         <p>A seguito dell'ultimo controllo, &egrave; risultato un problema ad una infrastruttura. </p>
@@ -130,14 +130,14 @@
              <font style="font-family: 'Nanum Gothic', sans-serif; margin-top: 10px;"><b>Infrastruttura A04/00</b></font>
             <div style="margin-top: 5px;">
               <?php
-         $ip2 = "128.116.128.228";
+         $ip2 = "yahoo.com";
          if(isset($ip2)){
          $host2 = $ip2;
          $port2 = 80;
          $waitTimeoutInSeconds2 = 1;
          ?>
          <?php if($fp2 = fsockopen($host2,$port2,$errCode2,$errStr2,$waitTimeoutInSeconds2)){ ?>
-           <font style="font-family: 'Nanum Gothic', sans-serif;" color="green"><i class="fas fa-check-circle"></i></i></font>&nbsp;&nbsp;Server A04/01 - Marostica SRL</font>
+           <font style="font-family: 'Nanum Gothic', sans-serif;" color="green"><i class="fas fa-check-circle"></i></i></font>&nbsp;&nbsp;Yahoo.com Servers</font>
            <div style="margin-top: 20px; margin-right: 40%;">
            <div class="alert alert-success" role="alert">
              <p>A seguito dell'ultimo controllo, tutte le infrastrutture sono risultate operative. </p>
@@ -146,7 +146,7 @@
            </div>
          </div>
          <?php } else { ?>
-           <font style="font-family: 'Nanum Gothic', sans-serif;" color="red"><i class="fas fa-times-circle"></i></font>&nbsp;&nbsp;Server A04/01 - Marostica SRL</font>
+           <font style="font-family: 'Nanum Gothic', sans-serif;" color="red"><i class="fas fa-times-circle"></i></font>&nbsp;&nbsp;Yahoo.com Servers</font>
           <div style="margin-top: 20px; margin-right: 40%;">
            <div class="alert alert-danger" role="alert">
              <p>A seguito dell'ultimo controllo, &egrave; risultato un problema ad una infrastruttura. </p>
@@ -178,9 +178,9 @@
    <center>
      <img src="../includes/img/logo.png" width="120" alt="inorbita.com">
     <div style="margin-top: 25px;">
-     <font style="font-family: 'Nanum Gothic', sans-serif;">Il NOC di <a href="https://inorbita.com">InOrbita</a></font>
+     <font style="font-family: 'Nanum Gothic', sans-serif;">Il NOC di <a href="https://yourdomain.com">Your Company name</a></font>
      <div style="margin-top: 10px;">
-   <font style="font-family: 'Nanum Gothic', sans-serif;" class="center"><a href="https://inorbita.com/area-riservata/">Area riservata</a> - <a href="https://status.inorbita.com">Stato dei Servizi</a> - <a href="https://inorbita.com/contattaci">Contattaci</a></font>
+   <font style="font-family: 'Nanum Gothic', sans-serif;" class="center"><a href="#">Area riservata</a> - <a href="#">Stato dei Servizi</a> - <a href="#">Contattaci</a></font>
  </div>
    </div>
    </center>
